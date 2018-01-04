@@ -11,4 +11,5 @@
         "--ignore=E309"
     ],
     "files.insertFinalNewline": true,
+    "workbench.startupEditor": "none",
 }
