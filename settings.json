@@ -4,11 +4,13 @@
     "files.autoSave": "onFocusChange",
     "python.formatting.provider": "autopep8",
     "editor.formatOnSave": true,
+    "python.formatting.autopep8Args": [
+        "--ignore=E501, E309",
+    ],
     "files.trimTrailingWhitespace": true,
     "editor.multiCursorModifier": "ctrlCmd",
     "python.linting.flake8Args": [
-        "--ignore=E501",
-        "--ignore=E309"
+        "--ignore=E501, E309",
     ],
     "files.insertFinalNewline": true,
     "workbench.startupEditor": "none",
@@ -17,4 +19,6 @@
     "workbench.colorTheme": "Monokai Dimmed",
     "workbench.colorCustomizations": {},
     "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
+    "explorer.confirmDelete": false,
+    "window.title": "${dirty}${rootName}${separator}${activeEditorMedium}",
 }
