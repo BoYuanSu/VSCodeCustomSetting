@@ -12,4 +12,9 @@
     ],
     "files.insertFinalNewline": true,
     "workbench.startupEditor": "none",
+    "editor.cursorStyle": "line",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "Monokai Dimmed",
+    "workbench.colorCustomizations": {},
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
 }
